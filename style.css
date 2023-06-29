@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(images/image\ \(2\).jpg) no-repeat center center/cover;
+}
+
+.header{
+    font-size: 1.3rem;
+    border: solid 2px wheat;
+    color: cadetblue;
+    background-color: black;
+    padding: 5px;
+    width: 80%;
+    margin: 2px auto;
+    border-radius: 6px;
+}
+
+.container{
+    width: 600px;
+    height: 490px;
+}
+
+.main-content {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(157, 185, 238);
+    border-radius: 17px;
+    padding: 55px 40px;
+    box-shadow: 0 0 11px;
+}
+
+
+.main-content .text-area {
+    font-size: 1.7rem;
+    line-height: 1.5;
+}
+
+.main-content .author {
+    font-size: 1.7rem;
+    color: darkgreen;
+    text-transform: uppercase;
+    margin-top: 26px;
+}
+
+.button-area button {
+    background-color: rgb(51, 29, 194);
+    color: antiquewhite;
+    font-size: 1.4rem;
+    padding: 10px 16px;
+    margin-top: 26px;
+    border-radius: 5px;
+}
+
+
+.button-area button:active {
+    background-color: rgb(190, 236, 184);
+}
