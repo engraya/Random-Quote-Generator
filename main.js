@@ -24,8 +24,12 @@ button.addEventListener("click", changeQuoteFunction)
 
 
 function changeQuoteFunction() {
-    let random = Math.floor(Math.random() * quotes.length);
+    let generateRandom = Math.floor(Math.random() * quotes.length);
+    let random = generateRandom;
 
-    quote.innerText = quotes[random].quote;
-    author.innerText = quotes[random].author;
+    let quoteInstance =  quotes[random].quote;
+    let authorInstace =  quotes[random].author;
+
+    quote.innerText = quoteInstance;
+    author.innerText = authorInstace;
 } 
