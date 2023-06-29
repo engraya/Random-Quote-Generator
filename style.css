@@ -17,13 +17,14 @@ body {
 
 .header{
     font-size: 1.3rem;
-    border: solid 2px wheat;
-    color: cadetblue;
-    background-color: black;
+    border: solid 2px rgb(37, 107, 236);
+    color: rgb(43, 159, 163);
+    background-color: rgb(19, 18, 18);
     padding: 5px;
     width: 80%;
     margin: 2px auto;
     border-radius: 6px;
+    margin-bottom: 10px;
 }
 
 .container{
@@ -34,7 +35,7 @@ body {
 .main-content {
     width: 100%;
     height: 400px;
-    background-color: rgb(157, 185, 238);
+    background-color: rgb(110, 209, 226);
     border-radius: 17px;
     padding: 55px 40px;
     box-shadow: 0 0 11px;
@@ -54,7 +55,7 @@ body {
 }
 
 .button-area button {
-    background-color: rgb(51, 29, 194);
+    background-color: rgb(9, 173, 44);
     color: antiquewhite;
     font-size: 1.4rem;
     padding: 10px 16px;
@@ -64,5 +65,5 @@ body {
 
 
 .button-area button:active {
-    background-color: rgb(190, 236, 184);
+    background-color: rgb(9, 86, 158);
 }
